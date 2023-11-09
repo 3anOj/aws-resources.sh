@@ -1,0 +1,21 @@
+#Author : M Manoj
+#Date   : 9-11-2023
+
+#Basic shell script project
+
+#AWS S3
+#AWS EC2
+#AWS List
+
+#list s3 buckets
+aws s3 ls
+echo "Print list of s3 buckets "
+
+#list Ec2 Instances
+aws ec2 describe-instances
+echo " Print list of ec2 instances"
+
+# list grops
+
+aws list ls-groups
+echo " print list of groups"
